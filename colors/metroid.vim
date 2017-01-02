@@ -1,5 +1,6 @@
 " Vim color file
 " You can see the highlighting settings with the ':help hl-StatusLine'
+" You can see the highlighting settings with the ':help hl'
 " Author: shinespark
 
 set background=dark
