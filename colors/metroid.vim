@@ -1,14 +1,13 @@
 " Vim color file
-" You can see the highlighting settings with the ':help hl-StatusLine'
 " You can see the highlighting settings with the ':help hl'
 " Author: shinespark
 
 set background=dark
 hi clear
-if exists("syntax_on")
+if exists('syntax_on')
   syntax reset
 endif
-let colors_name = "metroid"
+let g:colors_name = 'metroid'
 
 if has('multi_byte')
   hi CursorIM guifg=NONE guibg=LightGreen
