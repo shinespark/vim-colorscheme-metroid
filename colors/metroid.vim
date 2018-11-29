@@ -30,8 +30,8 @@ highlight Conditional  guifg=#ff40ff                             ctermfg=DarkMag
 " highlight Repeat " for, do, while
 " highlight Label " case, default
 " highlight Operator " sizeof, +, *
-highlight Exception    guifg=#fefb00                             ctermfg=Yellow                                         " try, catch, throw
-highlight PreProc      guifg=#fefb00                             ctermfg=Yellow                                         " 一般的なプリプロセッサ命令
+highlight Exception    guifg=#fffb00                             ctermfg=Yellow                                         " try, catch, throw
+highlight PreProc      guifg=#fffb00                             ctermfg=Yellow                                         " 一般的なプリプロセッサ命令
 " highlight Include
 " highlight Define
 " highlight Macro
@@ -49,17 +49,17 @@ highlight Special      guifg=#76d5ff                             ctermfg=LightBl
 " highlight Underlined
 highlight Ignore       guifg=#ff2bfd guibg=#000000               ctermfg=DarkMagenta  ctermbg=Black
 highlight Error        guifg=#ffffff guibg=#ff40ff               ctermfg=White        ctermbg=DarkMagenta               " コマンド実行エラー
-highlight ToDo         guifg=#fefb00 guibg=#000000 gui=reverse   ctermfg=Yellow       ctermbg=Black       cterm=reverse " コメント内のTODO, FIXME
+highlight ToDo         guifg=#fffb00 guibg=#000000 gui=reverse   ctermfg=Yellow       ctermbg=Black       cterm=reverse " コメント内のTODO, FIXME
 
 " Reverse Strings --
 highlight Cursor       guifg=bg      guibg=fg
-highlight Search       guifg=#fefb00 guibg=#000000 gui=reverse   ctermfg=Yellow       ctermbg=Black       cterm=reverse " 検索結果
+highlight Search       guifg=#fffb00 guibg=#000000 gui=reverse   ctermfg=Yellow       ctermbg=Black       cterm=reverse " 検索結果
 highlight IncSearch                                gui=reverse                                            cterm=reverse " インクリメンタル中の検索結果
 highlight MatchParen   guifg=#ffffff guibg=#ff40ff gui=bold      ctermfg=White        ctermbg=DarkMagenta cterm=bold    " 対応する括弧
 highlight Visual       guibg=#0097ff                                                  ctermbg=DarkBlue                  " visual mode
 highlight VisualNOS    guibg=#0097ff                                                  ctermbg=DarkBlue                  " visual mode(NOS)
 
-highlight Title        guifg=#ff9400 guibg=#000000 gui=bold      ctermfg=Yellow                           cterm=bold    " ':autocmd'などの実行時の出力タイトル
+highlight Title        guifg=#ff9400 guibg=#000000 gui=bold      ctermfg=202                              cterm=bold    " ':autocmd'などの実行時の出力タイトル
 highlight Directory    guifg=#0d99ff                             ctermfg=DarkBlue
 highlight NonText      guifg=#76d5ff                             ctermfg=LightBlue                                      " EOF以降の'~', '@'など
 highlight SpecialKey   guifg=#ff9400                             ctermfg=202                                            " <leader>
@@ -67,7 +67,7 @@ highlight SpecialKey   guifg=#ff9400                             ctermfg=202    
 " Status Line ------
 highlight StatusLine   guifg=#000000 guibg=#00fa93 gui=NONE      ctermfg=Black        ctermbg=Darkgreen   cterm=NONE    " アクティブなステータスライン
 highlight StatusLineNC guifg=#000000 guibg=#76d5ff gui=NONE      ctermfg=Black        ctermbg=LightBlue   cterm=NONE    " 非アクティブなステータスライン
-highlight Question     guifg=#000000 guibg=#fefb00 gui=NONE      ctermfg=Black        ctermbg=Yellow      cterm=NONE    " プロンプトメッセージ
+highlight Question     guifg=#000000 guibg=#fffb00 gui=NONE      ctermfg=Black        ctermbg=Yellow      cterm=NONE    " プロンプトメッセージ
 highlight ModeMsg      guifg=#00fa93               gui=NONE      ctermfg=DarkGreen                        cterm=NONE    " --挿入--とかのメッセージ
 highlight MoreMsg      guifg=#ff40ff               gui=NONE      ctermfg=DarkMagenta                      cterm=NONE    " --継続--メッセージ
 highlight WarningMsg   guifg=#fefeb0               gui=NONE      ctermfg=Yellow                           cterm=NONE    " 警告メッセージ
