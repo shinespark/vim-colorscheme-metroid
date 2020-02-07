@@ -65,7 +65,7 @@ highlight NonText      guifg=#76d5ff                             ctermfg=LightBl
 highlight SpecialKey   guifg=#ff9400                             ctermfg=202                                            " <leader>
 
 " Status Line ------
-highlight StatusLine   guifg=#000000 guibg=#00fa92 gui=NONE      ctermfg=Black        ctermbg=Darkgreen   cterm=NONE    " アクティブなステータスライン
+highlight StatusLine   guifg=#000000 guibg=#00fa92 gui=NONE      ctermfg=Black        ctermbg=DarkGreen   cterm=NONE    " アクティブなステータスライン
 highlight StatusLineNC guifg=#000000 guibg=#76d5ff gui=NONE      ctermfg=Black        ctermbg=LightBlue   cterm=NONE    " 非アクティブなステータスライン
 highlight Question     guifg=#000000 guibg=#fffb00 gui=NONE      ctermfg=Black        ctermbg=Yellow      cterm=NONE    " プロンプトメッセージ
 highlight ModeMsg      guifg=#00fa92               gui=NONE      ctermfg=DarkGreen                        cterm=NONE    " --挿入--とかのメッセージ
@@ -74,8 +74,8 @@ highlight WarningMsg   guifg=#fefeb0               gui=NONE      ctermfg=Yellow 
 highlight ErrorMsg     guifg=#ffffff guibg=#ff40ff gui=NONE      ctermfg=White        ctermbg=DarkMagenta cterm=NONE    " エラーメッセージ
 
 " Pmenu ------------
-highlight Pmenu        guifg=#000000 guibg=#ff40ff gui=NONE      ctermfg=Black        ctermbg=DarkMagenta               " ポップアップメニュー: 通常の項目
-highlight PmenuSel     guifg=#ffffff guibg=#ff77ff gui=bold      ctermfg=White        ctermbg=Magenta     cterm=bold    " ポップアップメニュー: 選択されている項目
+highlight Pmenu        guifg=#000000 guibg=#00fa92 gui=NONE      ctermfg=Black        ctermbg=DarkGreen   cterm=NONE    " ポップアップメニュー: 通常の項目
+highlight PmenuSel     guifg=#73fcd6 guibg=#000000 gui=bold      ctermfg=DarkGreen    ctermbg=Black       cterm=bold    " ポップアップメニュー: 選択されている項目
 highlight PmenuSbar                  guibg=#000000                                    ctermbg=Black                     " ポップアップメニュー: スクロールバー
 highlight PmenuThumb                 guibg=#666666                                    ctermbg=LightGray                 " ポップアップメニュー: スクロールバーのつまみ
 
