@@ -82,7 +82,7 @@ highlight PmenuThumb                 guibg=#666666                              
 " diff -------------
 highlight DiffAdd                    guibg=#ff40ff               ctermbg=DarkMagenta                                    " 追加された行行
 highlight DiffChange                 guibg=#00c5c7               ctermfg=White        ctermfg=DarkCyan                  " 変更された行
-highlight DiffText                   guibg=#00fa92 gui=NONE      ctermfg=Black        ctermbg=DarkGreen                 " 変更された行中の変更テキスト
+highlight DiffText     guifg=#000000 guibg=#00fa92 gui=NONE      ctermfg=Black        ctermbg=DarkGreen                 " 変更された行中の変更テキスト
 highlight DiffDelete   guifg=#000000 guibg=#fefeb0               ctermfg=Black        ctermbg=Yellow                    " 削除された行
 
 " etc. -------------
